@@ -1,2 +1,3 @@
 # gradle-script-plugins
-Gradle script plugins for different scenarios
+
+This repository contains Gradle script plugins, which contain common & shared dependencies, tasks, etc. for different ExplorViz projects. 
