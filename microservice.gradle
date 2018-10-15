@@ -30,3 +30,8 @@ dependencies {
   
   testImplementation 'junit:junit:4.12'
 }
+
+// Name for .war file
+war {
+  archiveName = "explorviz-${project.name}.${extension}"
+}
