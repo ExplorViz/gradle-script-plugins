@@ -1,7 +1,6 @@
 // Script plugin for microservice-based ExplorViz projects
 
 apply plugin: 'java-library'
-apply plugin: 'war'
 
 repositories {
   jcenter()
@@ -29,9 +28,4 @@ dependencies {
   compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
   
   testImplementation 'junit:junit:4.12'
-}
-
-// Name for .war file
-war {
-  archiveName = "explorviz-${project.name}.${extension}"
 }
